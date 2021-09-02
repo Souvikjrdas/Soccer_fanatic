@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Contact
+        </title>
+        <style>
+            .header{
+                background-color: navy;
+                padding: 12px;
+                text-align: center;
+            }
+            #spans{
+                padding-right: 12px;
+                color: whitesmoke;
+                font-size: large;
+            }
+            #forms{
+               padding: 22px;
+               width: 400px;
+               height: 300px;
+               background-color: white;
+               margin-left: auto;
+               margin-right: auto;
+               text-align: center;
+               padding-top: 36px;
+               border: 1px solid black;
+            }
+            .input{
+                width: 100%;
+                padding: 10px;
+                padding-bottom: 14px;
+                padding-left: 2px;
+                margin-bottom: 26px;
+                border: 0;
+                font-size: large;
+                background-color: white;
+                text-align: justify;
+            }
+            .submit{
+                width: 120px;
+                padding: 6px;
+                font-size: large;
+                color: white;
+                background-color: navy;
+                margin-top: 50px;
+            }
+            </style>
+        </head>
+        <body style="margin: 0;">
+            <header class="header" >
+                <span><a id="spans" href="index.html">TRIPS</a></span>
+                <span><a id="spans" href="about.html">ABOUT</a></span>
+                <span><a id="spans" href="contact.html">CONTACT</a></span>
+            </header>
+            <main>
+                <section>
+                    <article>
+                        <h3 style="text-align: center; font-size: x-large;">Wanna come on my next trip?Contact me.</h3>
+                        <form id="forms" method="POST">
+                            <input style=" border-bottom: 1px solid black;" class="input" type="text" name="Full Name" placeholder="Full Name" maxlength="40" autofocus required><br>
+                            <input style=" border-bottom: 1px solid black;" class="input" type="email" name="Email" placeholder="Email" autofocus required><br>
+                            <input style=" border-bottom: 1px solid black;" class="input" type="number"  placeholder="Contact Number" maxlength="10" minlength="10" autofocus required><br>
+                            <input class="submit" type="submit" name="submit" value="Submit">
+                        </form>
+                    </article>
+                </section>
+            </main>
+            <footer>
+
+            </footer>
+        </body>
+</html>
+
